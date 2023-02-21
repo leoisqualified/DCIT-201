@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Book{
+  public static void main(String args[]){
+    String s1,s2,s3;
+    int a;
+    double b;
+    Scanner scanner = new Scanner(System.in);
+
+    System.out.println("enter book's name");
+    s1 = scanner.nextLine();
+    System.out.println("book's name is"+s1);
+    System.out.println("enter author's name");
+    s2 = scanner.nextLine();
+    System.out.println("book's Author is"+s2);
+    System.out.println("enter the book's ISBN");
+    s3 = scanner.nextLine();
+    System.out.println("book's ISBN is"+s3);
+    System.out.println("enter the number of pages");
+    a = scanner.nextInt();
+    System.out.println("the number of pages is"+a);
+    System.out.println("enter the book price");
+    b = scanner.nextDouble();
+    System.out.println("book's price is"+b);
+  }
+}
