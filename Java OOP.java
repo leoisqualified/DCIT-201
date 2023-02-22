@@ -1,26 +1,26 @@
 import java.util.Scanner;
 public class Book{
   public static void main(String args[]){
-    String s1,s2,s3;
-    int a;
-    double b;
+    String title,author,ISBN;
+    int pageNum;
+    double price;
     Scanner scanner = new Scanner(System.in);
 
     System.out.println("enter book's name");
-    s1 = scanner.nextLine();
-    System.out.println("book's name is"+s1);
+    title = scanner.nextLine();
+    System.out.println("book's name is"+ title);
     System.out.println("enter author's name");
-    s2 = scanner.nextLine();
-    System.out.println("book's Author is"+s2);
+    author = scanner.nextLine();
+    System.out.println("book's Author is"+ author);
     System.out.println("enter the book's ISBN");
-    s3 = scanner.nextLine();
-    System.out.println("book's ISBN is"+s3);
+    ISBN = scanner.nextLine();
+    System.out.println("book's ISBN is"+ ISBN);
     System.out.println("enter the number of pages");
-    a = scanner.nextInt();
-    System.out.println("the number of pages is"+a);
+    pageNum = scanner.nextInt();
+    System.out.println("the number of pages is"+ pageNum);
     System.out.println("enter the book price");
-    b = scanner.nextDouble();
-    System.out.println("book's price is"+b);
+    price = scanner.nextDouble();
+    System.out.println("book's price is"+ price);
   }
 }
 
@@ -32,7 +32,7 @@ Book book2 = new Book("no sweetness here","Ama Ata Aidoo",9781558616202,160,20.0
 System.out.println(book1.gettitle());
 System.out.println(book1.getauthor());
 System.out.println(book1.getISBN());
-System.out.println(book1.getpageCount());
+System.out.println(book1.getpageNum());
 System.out.println(book1.getprice());
 
 book2.settitle("King Solomon's mines");
