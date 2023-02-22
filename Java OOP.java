@@ -43,3 +43,19 @@ book2.setprice(12.60);
     }
 }
 
+/*Create a Movie class that has the following fields:
+•	title (String)
+•	director (String)
+•	releaseYear (int)
+•	duration (int) in minutes
+•	rating (double)
+*/
+public class Movie{
+  private String title;
+  private String director;
+  private int releaseyear;
+  private int duration;
+  private double rating;
+  
+  public  Movie(title,director,releaseYear,duration,rating);
+}
