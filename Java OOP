@@ -23,3 +23,23 @@ public class Book{
     System.out.println("book's price is"+b);
   }
 }
+
+public class Main{
+public static void main(String [] args){
+Book book1 = new Book("the cockrow","Lawrence Darmani","9789988618049",190,18.50);
+Book book2 = new Book("no sweetness here","Ama Ata Aidoo",9781558616202,160,20.00);
+
+System.out.println(book1.gettitle());
+System.out.println(book1.getauthor());
+System.out.println(book1.getISBN());
+System.out.println(book1.getpageCount());
+System.out.println(book1.getprice());
+
+book2.settitle("King Solomon's mines");
+book2.setauthor("Adenutsi Andy");
+book2.setISBN("9997778886661");
+book2.setpageCount(404);
+book2.setprice(12.60);
+    }
+}
+
